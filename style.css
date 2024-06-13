@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+}
+
+.contenedor {
+    max-width: 400px;
+}
+
+.fondo {
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.imagen_presentacion {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen_presentacion img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.titulos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos h2 {
+    margin-bottom: -10px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.titulos h4 {
+    margin-bottom: 10px;
+    color: hsl(75, 94%, 57%);
+}
+
+.profesion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+    
+
+.botones a {
+    width: 300px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 20%);
+    margin: 20px 0;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 12px 5px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.botones a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
